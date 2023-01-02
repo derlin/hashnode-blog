@@ -29,7 +29,7 @@ You now have your article content with TOC on your clipboard!
 
 You can even redo the manipulation after an update to the article since BitDownToc is *idempotent* by default!
 
-![BitDownToc interface with dev.to preset](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fh1i6a567hk2y1z0brzu.png align="left")
+![](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bs6weq2dfua3j2s1iz2f.png align="center")
 
 <sub>For the dark lovers out there, you can toggle the dark theme using the first icon on the top right 😉</sub>
 
@@ -52,10 +52,6 @@ You can even redo the manipulation after an update to the article since BitDownT
 
 ---
 
-**UPDATE**: I just discovered [dev.to](http://dev.to) DOES create anchors (GitLab style - with space concatenation). I updated BitDownToc online to match this finding!
-
----
-
 ## Why are TOCs important?
 
 A table of contents (TOC) is important because it helps navigate the content and find specific information quickly. It allows readers to grasp in seconds what the article is about and to potentially jump to the section they are interested in in a click. It improves the overall organization, readability, and usability of the article.
@@ -70,7 +66,7 @@ A table of contents is simply a list of *fragment* links (`#xxx`), with each lin
 <!-- for old browser ... --->
 <a name="section1">Section 1</a>
 <!-- ... or for modern browser supporting HTML5 -->
-<h2 id="section">Section 1</h2>
+<h2 id="section1">Section 1</h2>
 ```
 
 To refer to an anchor, one can use a link with a `#` symbol - called a *fragment link*. From the example above:
@@ -81,26 +77,35 @@ To refer to an anchor, one can use a link with a `#` symbol - called a *fragment
 
 ## TOCs on dev.to
 
-**<mark>UPDATE </mark>** I missed it at first, but dev.to *does* generate anchors automatically using GitLab's style (see [(Bonus) TOCs on other platforms](#heading-bonus-tocs-on-other-platforms)). I updated BitDownToc accordingly.
+[Dev.to](http://Dev.to) automatically generates anchors for headings using the following algorithm:
 
-To manually add a TOC to a dev.to article, we need to generate the TOC itself, but also the anchors:
+1. take the heading text,
+    
+2. lowercase everything,
+    
+3. drop any character that isn't a letter, a digit, or a space,
+    
+4. merge consecutive spaces into a single one
+    
+5. replace spaces with dashes.
+    
 
-```html
+To manually add a TOC to a [dev.to](http://dev.to) article, we thus need to generate the TOC with the proper fragment links:
+
+```plaintext
 ## Table of Contents
 - [Introduction](#introduction)
-- [Main Body](#main-body)
-- [Conclusion](#conclusion)
+- [This ;;; is Main.   Body](#this-is-main-body)
+- [Conclusion  (yup)](#conclusion-yup)
 
-<a name="introduction"></a>
 ## Introduction
 ...
 
-<a name="main-body"></a>
-## Main Body
+## This ;;; is Main.   Body
 ...
 
-<a name="conclusion"></a>
-## Conclusion
+## Conclusion  (yup)
+...
 ...
 ```
 
@@ -121,26 +126,17 @@ An idempotent operation produces the same result no matter how many times it is 
 
 To support this feature, TOC and anchors are preceded by/wrapped within small comments. Those comments are usually in HTML (`<!-- ... -->`), but since dev.to doesn't support them (😦), the `dev.to` preset uses [liquid tags](https://developers.forem.com/frontend/liquid-tags) instead (`{%- # ... -%}`).
 
-The above example thus looks like this:
+The above example will look the same, but with liquid comments around the TOC:
 
-```html
-## Table of Contents
+```plaintext
+...
+
 {%- # TOC start -%}
 - [Introduction](#introduction)
-- [Main Body](#main-body)
-- [Conclusion](#conclusion)
+- [This ;;; is Main.   Body](#this-is-main-body)
+- [Conclusion  (yup)](#conclusion-yup)
 {%- # TOC end -%}
 
-{%- # TOC -%}<a name="introduction"></a>
-## Introduction
-...
-
-{%- # TOC -%}<a name="main-body"></a>
-## Main Body
-...
-
-{%- # TOC -%}<a name="conclusion"></a>
-## Conclusion
 ...
 ```
 
@@ -156,7 +152,7 @@ If you always use the same options, click on *Save* to make them the defaults �
 
 BitDownToc is meant to be *universal*. To make it easy to use, it comes with presets for most developer platforms such as GitHub, Gitlab, and BitBucket Server.
 
-Most markdown renderers generate anchors automatically for each section. The challenge is to find out *how* this generation works. On **GitHub**, for example, all special characters (other than letters and digits) in the heading are replaced with `-`. **Gitlab** merges consecutive spaces into a single one before performing the same replacement. This option is called `concat-spaces` in BitDownToc. **HashNode** works like Gitlab, but prefixes anchors with `heading-`. This option is called `anchors-prefix` in BitDownToc.
+On **GitHub**, for example, the title is lowercased, all special characters (other than letters, digits, and spaces) in the heading are dropped, and spaces are replaced with dashes. **Gitlab** and [**dev.to**](http://dev.to) merge consecutive spaces into a single one before performing the same logic. This option is called `concat-spaces` in BitDownToc. **HashNode** works like Gitlab, but prefixes anchors with `heading-`. This option is called `anchors-prefix` in BitDownToc.
 
 For renderers that do not generate anchors (or if the anchor's generation algorithm is too convoluted), BitDownToc can generate its own anchors directly in the markdown. This is what it does for [dev.to](http://dev.to) and BitBucket Server.
 
