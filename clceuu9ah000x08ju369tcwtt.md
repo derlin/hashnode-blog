@@ -52,6 +52,10 @@ You can even redo the manipulation after an update to the article since BitDownT
 
 ---
 
+**UPDATE**: I just discovered [dev.to](http://dev.to) DOES create anchors (GitLab style - with space concatenation). I updated BitDownToc online to match this finding!
+
+---
+
 ## Why are TOCs important?
 
 A table of contents (TOC) is important because it helps navigate the content and find specific information quickly. It allows readers to grasp in seconds what the article is about and to potentially jump to the section they are interested in in a click. It improves the overall organization, readability, and usability of the article.
@@ -76,6 +80,8 @@ To refer to an anchor, one can use a link with a `#` symbol - called a *fragment
 ```
 
 ## TOCs on dev.to
+
+**<mark>UPDATE </mark>** I missed it at first, but dev.to *does* generate anchors automatically using GitLab's style (see [(Bonus) TOCs on other platforms](#heading-bonus-tocs-on-other-platforms)). I updated BitDownToc accordingly.
 
 To manually add a TOC to a dev.to article, we need to generate the TOC itself, but also the anchors:
 
