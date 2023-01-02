@@ -154,7 +154,7 @@ BitDownToc is meant to be *universal*. To make it easy to use, it comes with pre
 
 On **GitHub**, for example, the title is lowercased, all special characters (other than letters, digits, and spaces) in the heading are dropped, and spaces are replaced with dashes. **Gitlab** and [**dev.to**](http://dev.to) merge consecutive spaces into a single one before performing the same logic. This option is called `concat-spaces` in BitDownToc. **HashNode** works like Gitlab, but prefixes anchors with `heading-`. This option is called `anchors-prefix` in BitDownToc.
 
-For renderers that do not generate anchors (or if the anchor's generation algorithm is too convoluted), BitDownToc can generate its own anchors directly in the markdown. This is what it does for [dev.to](http://dev.to) and BitBucket Server.
+For renderers that do not generate anchors (or if the anchor's generation algorithm is too convoluted), BitDownToc can generate its own anchors directly in the markdown. This is what it does for BitBucket Server.
 
 🗒️ Note that if you inspect the HTML of any README on GitHub or Gitlab, you won't see the "real" anchors. A markdown like:
 
