@@ -52,7 +52,7 @@ The trick is thus to trigger a `sync`/`apply` in debug mode, and stop (`ctrl+c`)
 
 As it is a pain to do manually, here is a script to do the job. Note that you will need to be connected to a kubernetes cluster for it to succeed, even though **nothing** will be deployed (rest easy). If you are in doubt, run `kubectl login` before running the script:
 
-```plaintext
+```bash
 #!/bin/bash
 
 file=$(mktemp -t hf)
@@ -68,7 +68,7 @@ helmfile $@ list > $file
 start=0
 helmfile --log-level debug $@ sync 2>&1 | tee $file | while IFS='' read -r line
 do
-  [[ "$line" == *"groups of releases in this order"* ]] && start=1
+  [[ $line =~ ^"processing "[0-9+]" groups of releases in this order:"$ ]] && start=1
   if [[ "$line" == "processing releases in group 1"* ]]; then
     start=0
     rm $file # all went fine
@@ -87,7 +87,7 @@ fi
 
 Assuming the script is saved as `helmfile-dag.sh` in the user directory and is executable, the following:
 
-```plaintext
+```bash
 cd folder-with-helmfile
 ~/helmfile-dag.sh # will use helmfile.yaml in CWD
 ```
@@ -104,11 +104,11 @@ GROUP RELEASES
 
 Note that it is possible to pass extra *global* options to helmfile, for example:
 
-```plaintext
+```bash
 # process a helmfile not in CWD
 ~/helmfile-dag.sh --file folder-with-helmfile/helmfile.yaml
 ```
 
-* * *
+---
 
 Written with ❤ by [derlin](https://github.com/derlin), thank you for reading !
