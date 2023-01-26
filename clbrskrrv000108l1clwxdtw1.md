@@ -4,31 +4,13 @@
 
 Let's go over how it works, and see how we can make it better. If you don't like to read, skip to [My tip on using values in helmfile](#my-tip-on-using-values-in-helmfile) (or read the TL;DR in the repo linked below).
 
-* * *
+---
 
 **For a full example, check out this code:**
 
 👉 ✨ [**https://github.com/derlin/helmfile-intuitive-values-handling**](https://github.com/derlin/helmfile-intuitive-values-handling) ✨ 👈
 
-* * *
-
-## Values in umbrella charts (pure Helm)
-
-Coming from the Helm world, I am used to using umbrella charts, where all the default values for my charts are defined in one single `values.yaml`: \`\`\`yaml
-
-# globals are available to all sub-charts
-
-# using .[Values.global](http://Values.global).\* global: domain: [dev.example.com](http://dev.example.com)
-
-[helmfile](https://helmfile.readthedocs.io) is a very nice and powerful tool to manage multiple Helm charts declaratively. However, there is one area in which I find it suboptimal: the handling of values / environment values.
-
-Let's go over how it works, and see how we can make it better. If you don't like to read, skip to [My tip on using values in helmfile](#my-tip-on-using-values-in-helmfile) (or read the TL;DR in the repo linked below).
-
-* * *
-
-**For a full example, check out this code !** 👉 ✨ [**https://github.com/derlin/helmfile-intuitive-values-handling**](https://github.com/derlin/helmfile-intuitive-values-handling) ✨ 👈
-
-* * *
+---
 
 ## Values in umbrella charts (pure Helm)
 
@@ -183,6 +165,6 @@ A complete example (and a different explanation) is available here:
 
 %[https://github.com/derlin/helmfile-intuitive-values-handling] 
 
-* * *
+---
 
 Written with ❤ by [derlin](https://derlin.ch)
