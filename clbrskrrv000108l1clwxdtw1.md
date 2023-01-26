@@ -54,7 +54,7 @@ helm install my-umbrella-name . --values environments/prod.yaml
 
 With helmfile though, there is no easy way to reproduce this behavior (well, there is actually, keep reading 😉).
 
-### Values in helmfile
+## Values in helmfile
 
 In helmfile, one defines default values for a chart using the `releases.<name>.values`:
 
