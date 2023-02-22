@@ -30,9 +30,9 @@ The `tpl` function is however costly and slow, and this is why it should be call
 
 As the code should make it clear, `bettertpl` adds two features to the regular `tpl`:
 
-1.  it allows to template anything (not just string), as `dict`, `list`, etc. will be converted to string first, and
+1. it allows to template anything (not just string), as `dict`, `list`, etc. will be converted to string first, and
     
-2.  it only calls the slow `tpl` when needed: if the string doesn't contain at least one `{{ ... }}`, we know we can just print it as is.
+2. it only calls the slow `tpl` when needed: if the string doesn't contain at least one `{{ ... }}`, we know we can just print it as is.
     
 
 Usage:
@@ -50,9 +50,9 @@ Note that I use named arguments for better readability. You can get rid of them 
 {{ include "bettertpl" (list .Values.foo .) }}
 ```
 
-In the template above, change `.value` → `first .` and `.context` → `index . 2` to read from list arguments instead. {%endcollapsible %}
+In the template above, change `.value` → `first .` and `.context` → `index . 2` to read from list arguments instead.
 
-* * *
+---
 
 **Is it worth it?** As an example, I recently migrated a gitops repository with an umbrella chart of around 20 sub-charts. After a refactoring allowing me to use only one base chart for all, my `helm template` went from &lt;1s to more than 15 seconds...
 
