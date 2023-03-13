@@ -4,7 +4,7 @@ seoDescription: "Kotlin functions are first-class citizens. Let's understand tog
 datePublished: Mon Mar 13 2023 15:42:02 GMT+0000 (Coordinated Universal Time)
 cuid: clf6zt3xo000209l42btbc2ym
 slug: kotlin-is-fun-function-types-lambdas-and-higher-order-functions
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1678722043484/15d5fdf2-e448-4f62-9883-91cbb7a91caa.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1678724457375/e92a4a62-5995-4670-bdb6-0ec454f1c437.png
 tags: functional-programming, kotlin, kotlin-beginner
 
 ---
