@@ -11,7 +11,7 @@ tags: functional-programming, kotlin, kotlin-beginner
 
 Kotlin treats functions as first-class citizens.
 
-[First-class](%5Bfirst-class%5D(https://en.wikipedia.org/wiki/First-class_function)) means functions can be stored in variables and data structures and can be passed as arguments to and returned from other functions ([higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function)). This is one of the idioms of functional programming, a programming style that I love.
+[First-class](https://en.wikipedia.org/wiki/First-class_function) means functions can be stored in variables and data structures and can be passed as arguments to and returned from other functions ([higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function)). This is one of the idioms of functional programming, a programming style that I love.
 
 To better understand what it means, and why it is so cool, let's go through the theory: what are function types, why they matter, and how they relate to lambdas and higher order functions.
 
