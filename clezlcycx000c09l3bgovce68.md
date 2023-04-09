@@ -59,7 +59,7 @@ Soft requirements:
 
 * The [helm diff plugin](https://github.com/databus23/helm-diff) (`helm plugin install https://github.com/databus23/helm-diff`). This is necessary if you plan to use `helmfile apply` and `helmfile diff`
     
-* [k3d](k3d.io/) to be able to spawn a local Kubernetes cluster on Docker (`brew install k3d`)
+* [k3d](https://k3d.io/) to be able to spawn a local Kubernetes cluster on Docker (`brew install k3d`)
     
 
 ### Procedure
