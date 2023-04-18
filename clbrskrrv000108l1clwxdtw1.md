@@ -1,4 +1,13 @@
-# helmfile: a simply trick to handle values intuitively
+---
+title: "helmfile: a simple trick to handle values intuitively"
+seoDescription: "Learn how to simplify values handling within big helmfiles, by mimicking the umbrella Chart's behaviors. This will save you time and brain cells!"
+datePublished: Mon Jun 20 2022 09:01:34 GMT+0000 (Coordinated Universal Time)
+cuid: clbrskrrv000108l1clwxdtw1
+slug: helmfile-a-simple-trick-to-handle-values-intuitively
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671272619621/uO7UP6Ly-.png
+tags: kubernetes, devops, helm, helmfile
+
+---
 
 [helmfile](https://helmfile.readthedocs.io) is a very nice and powerful tool to manage multiple Helm charts declaratively. However, there is one area in which I find it suboptimal: the handling of values / environment values.
 
