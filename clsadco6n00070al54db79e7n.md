@@ -86,7 +86,7 @@ Something fundamental is that GitHub Apps are ***installed at the organization l
 
 ### The process
 
-Back to Cloud Run. In the first step, Google tells you to *authenticate*. Here, it is using OAuth2 to [retrieve an access token to act on your behalf](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/authenticating-with-a-github-app-on-behalf-of-a-user). This token will have the permissions both you AND the app have (impersonation).
+Back to Cloud Run. In the first step, Google tells you to *authenticate*. Here, it is using OAuth2 to [retrieve an access token to act on your behalf](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/authenticating-with-a-github-app-on-behalf-of-a-user). This token will have the permissions both you AND the app have (impersonation). It is important to note that currently, GitHub App user tokens are valid of 8 hours (with a refresh token valid for 6 months)! So don't forget to revoke access after setup.
 
 Once authenticated, Google uses the token to ask the GitHub API about the *installations* of the GitHub App you have access to, and for each installation which repositories the installation can manage. This list is used to populate the second dropdown field.
 
