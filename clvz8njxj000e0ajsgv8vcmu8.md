@@ -74,7 +74,7 @@ MockServer is now running on [http://localhost:1080](http://localhost:1080)! How
 
 ## Defining the expectations (spec.json)
 
-🔥 *More examples available at* [*https://github.com/mock-server/mockserver/blob/master/mockserver-examples/json\_examples.md*](https://github.com/mock-server/mockserver/blob/master/mockserver-examples/json_examples.md) 🔥
+🔥 *More examples available at*[*https://github.com/mock-server/mockserver/blob/master/mockserver-examples/json\_examples.md*](https://github.com/mock-server/mockserver/blob/master/mockserver-examples/json_examples.md) 🔥
 
 ### The most basic expectation
 
@@ -103,7 +103,7 @@ This is just a simple example, but we can go way deeper. The request may define 
 
 The response often depends on the request, and enumerating all the possible input/output pairs is tedious. MockServer supports loops, conditionals, and 3 [response template](https://www.mock-server.com/mock_server/response_templates.html) engines: Javascript, mustache, and velocity.
 
-Let's see a velocity example *(at the time of writing, Javascript is broken in Docker, see the*[*related issue*](https://github.com/mock-server/mockserver/issues/1326)*):*
+Let's see a velocity example *(at the time of writing, Javascript is broken in Docker, see the* [*related issue*](https://github.com/mock-server/mockserver/issues/1326)*):*
 
 ```json
 {
