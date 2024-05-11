@@ -15,13 +15,20 @@ I don't need to enumerate all the situations in which you would need to mock an 
 
 ---
 
-- [The docker-compose](#heading-the-docker-compose)
-- [Defining the expectations (spec.json)](#heading-defining-the-expectations-specjson)
-   * [The most basic expectation](#heading-the-most-basic-expectation)
-   * [Using templates](#heading-using-templates)
-   * [Importing the request spec from OpenAPI](#heading-importing-the-request-spec-from-openapi)
-   * [Going further](#heading-going-further)
-- [Conclusion](#heading-conclusion)
+* [The docker-compose](#heading-the-docker-compose)
+    
+* [Defining the expectations (spec.json)](#heading-defining-the-expectations-specjson)
+    
+    * [The most basic expectation](#heading-the-most-basic-expectation)
+        
+    * [Using templates](#heading-using-templates)
+        
+    * [Importing the request spec from OpenAPI](#heading-importing-the-request-spec-from-openapi)
+        
+    * [Going further](#heading-going-further)
+        
+* [Conclusion](#heading-conclusion)
+    
 
 ---
 
@@ -67,7 +74,7 @@ MockServer is now running on [http://localhost:1080](http://localhost:1080)! How
 
 ## Defining the expectations (spec.json)
 
-🔥 *More examples available at*[*https://github.com/mock-server/mockserver/blob/master/mockserver-examples/json\_examples.md*](https://github.com/mock-server/mockserver/blob/master/mockserver-examples/json_examples.md) 🔥
+🔥 *More examples available at* [*https://github.com/mock-server/mockserver/blob/master/mockserver-examples/json\_examples.md*](https://github.com/mock-server/mockserver/blob/master/mockserver-examples/json_examples.md) 🔥
 
 ### The most basic expectation
 
