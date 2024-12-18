@@ -11,7 +11,7 @@ tags: programming-blogs, python, showhashnode, rickroll
 
 I while back, I was looking for a fun project to test open-source best practices (docker, GitHub Actions, etc). I came up with "rickroller", the perfect tool to rickroll your friends like a pro!i
 
-In this article, I want to share with you my vision of a perfect RickRoll prank (demo ⮕ [https://tinyurl.eu.aldryn.io](https://tinyurl.eu.aldryn.io)), and some interesting aspects of its implementation. If you want to learn more about open-source best practices, have a look at the README (⮕ [https://github.com/derlin/rickroller](https://github.com/derlin/rickroller)).
+In this article, I want to share with you my vision of a perfect RickRoll prank (demo ⮕ [https://rroll.derlin.ch](https://rroll.derlin.ch)), and some interesting aspects of its implementation. If you want to learn more about open-source best practices, have a look at the README (⮕ [https://github.com/derlin/rickroller](https://github.com/derlin/rickroller)).
 
 ---
 
@@ -71,7 +71,7 @@ View 1 is the prankster interface, where he can choose which original URL (web p
 
 ## The final result
 
-My Rickroller implementation is a simple [Python Flask](http://flask.palletsprojects.com/) app. You can test it at [https://tinyurl.eu.aldryn.io](https://tinyurl.eu.aldryn.io) (hosted by the awesome PaaS ♡ [**Divio**](https://docs.divio.com) ♡).
+My Rickroller implementation is a simple [Python Flask](http://flask.palletsprojects.com/) app. You can test it at [https://rroll.derlin.ch](https://rroll.derlin.ch) (hosted by the awesome PaaS ♡ [**Divio**](https://docs.divio.com) ♡).
 
 Here is the view to create a rickroll (view 1):
 
@@ -81,11 +81,13 @@ Try to enter a URL, then interact with the fake page. You should end up on:
 
 ![rickroll!](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/btmt91u9762pxh06uavy.png align="left")
 
-Cherries on the cake, the social preview from the original site shows up when you share a fake link. Here is the result of sharing the malicious https://dev.to URL on Telegram:
+Cherries on the cake, the social preview from the original site shows up when you share a phony link. Here is the result of sharing the malicious https://dev.to URL on Telegram:
+
+*(Note: the first prototype was on tinyurl.eu.aldryn.io, and later moved to rroll.derlin.ch)*
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1686302802919/3dbce45b-fd2c-43a4-b0c7-14b71f75641a.png align="center")
 
-The best is to try it yourself, it will become clearer. The code and much more details are available on GitHub ⮕ [https://github.com/derlin/rickroller](https://github.com/derlin/rickroller).
+The best is to try it yourself, it will become clearer. The code and many more details are available on GitHub ⮕ [https://github.com/derlin/rickroller](https://github.com/derlin/rickroller).
 
 IMPORTANT: the fake links may become obsolete after a few days.
 
@@ -215,7 +217,7 @@ But wait, if a video doesn't autoplay, a GIF definitely will! If we can't have s
 
 ![oops giphy](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ox2pzxnrq9gec4sygo5p.png align="left")
 
-To avoid another abrupt disappearance, I downloaded a gif from [tenor.com](http://tenor.com) that is now served directly by my server. This is what you see in the final result: [https://tinyurl-stage.eu.aldryn.io/gotcha](https://tinyurl-stage.eu.aldryn.io/gotcha)
+To avoid another abrupt disappearance, I downloaded a gif from [tenor.com](http://tenor.com) that is now served directly by my server. This is what you see in the final result: [http://rroll.derlin.ch/gotcha](http://rroll.derlin.ch/gotcha)
 
 ### The URL shortener disguise
 
