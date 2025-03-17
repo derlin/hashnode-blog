@@ -40,15 +40,15 @@ First, let’s understand the headers and tools Cloudflare gives us to understan
 
 The most important one is `Cf-Cache-Status`, which can take the following values:
 
-* `HIT` → cacheable content, served from the cache.
+* `HIT` → cacheable resource, served from the cache.
     
-* `MISS` → cacheable content, never cached (or at least not in the cache at the time of the request). Served from the origin.
+* `MISS` → cacheable resource, never cached (or at least not in the cache at the time of the request). Served from the origin.
     
-* `EXPIRED` → cacheable content, was in the cache but has an expired TTL. Served from the origin.
+* `EXPIRED` → cacheable resource, was in the cache but has an expired TTL. Served from the origin.
     
-* `BYPASS` → cacheable content, not cached due to directive, cookie, etc …
+* `BYPASS` → cacheable resource, not cached due to directive, cookie, etc …
     
-* `DYNAMIC` → uncacheable content
+* `DYNAMIC` → uncacheable resource
     
 
 So, resources (or URLs) are organized into *cacheable* and *uncacheable* assets. Cacheable resources have more nuanced statuses, depending on the state of the Cloudflare cache and other settings such as the TTL, the Cookies, etc.
