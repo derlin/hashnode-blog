@@ -4,7 +4,7 @@ seoDescription: "No more space left on your shelves? Learn how to make teeny-tin
 datePublished: Tue Sep 09 2025 12:00:11 GMT+0000 (Coordinated Universal Time)
 cuid: cmfci0u3z002h02jsfdlpgsig
 slug: diy-my-guide-to-making-miniature-book-replicas-full-tutorial
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757314299847/ffbf5ed4-2cd6-43e9-ad26-09ea70ee5b67.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757420422369/822fa227-6153-412d-a4c5-a803b4e492d6.png
 tags: tutorial, books, diy
 
 ---
