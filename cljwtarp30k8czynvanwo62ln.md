@@ -1,7 +1,7 @@
 ---
 title: "When plans go astray: my unsuccessful journey of migrating a large Django project to Mypy"
 seoDescription: "Learn about my failed attempt at migrating a large Django project to Mypy. We'll talk typed dicts, generics, peps, and more."
-datePublished: Mon Jul 10 2023 12:00:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-07-10T12:00:39.286Z
 cuid: cljwtarp30k8czynvanwo62ln
 slug: my-unsuccessful-journey-of-migrating-a-large-django-project-to-mypy
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688715670244/cc3f5dfd-152c-450c-b49b-ef6dc6ce5597.jpeg
