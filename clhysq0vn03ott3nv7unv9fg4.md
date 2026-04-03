@@ -1,7 +1,7 @@
 ---
 title: "A developer's guide to deploy applications on Kubernetes"
 seoDescription: "Learn about Kubernetes 101, manifests, Helm, helmfile, and Argo CD from a developer's perspective to deploy your apps on k8s with style."
-datePublished: Mon May 22 2023 12:00:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-05-22T12:00:39.119Z
 cuid: clhysq0vn03ott3nv7unv9fg4
 slug: a-developers-guide-to-deploy-applications-on-kubernetes
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683970495680/969b62b7-c5d2-4b8c-9f54-4b5aafad8b03.png
