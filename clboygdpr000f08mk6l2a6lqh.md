@@ -1,4 +1,13 @@
-# helmfile: understand (and visualize !) the order in which releases are deployed
+---
+title: "helmfile: understand (and visualize !) the order in which releases are deployed"
+seoDescription: "helmfile deployments can fail due to a wrong ordering of releases. Learn how it works under the hood and how to check the order easily without deploying!"
+datePublished: 2022-03-14T16:27:52.000Z
+cuid: clboygdpr000f08mk6l2a6lqh
+slug: helmfile-understand-and-visualize-the-order-in-which-releases-are-deployed
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671466442837/4_uOOjnso.png
+tags: kubernetes, helm, helmfile
+
+---
 
 This article looks at [helmfile](https://github.com/roboll/helmfile), and how it determines the order in which releases are deployed. More importantly, it gives you a bash script you can use to discover (i.e. print to the console) this order, without having to do a full `helmfile sync`/`helmfile apply`.
 
