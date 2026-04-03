@@ -1,4 +1,13 @@
-# dev.to is for webdevs and beginners - I have data to prove it
+---
+title: "dev.to is for webdevs and beginners - I have data to prove it"
+seoDescription: "An in-depth data analysis of the trending articles and tags (count, reactions, comments) on dev.to."
+datePublished: 2022-11-17T14:15:05.000Z
+cuid: clboz293y001k08l79zkq61xd
+slug: devto-is-for-webdevs-and-beginners-i-have-data-to-prove-it
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671108978806/H7lJKjO_K.jpg
+tags: python, data-science, data-analysis
+
+---
 
 *(banner: top 100 tags, proportional to their number of articles)*
 
