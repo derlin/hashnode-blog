@@ -1,4 +1,13 @@
-# kubectl run: spawn temporary docker containers on Kubernetes
+---
+title: "kubectl run: spawn temporary docker containers on Kubernetes"
+seoDescription: "Learn how to use `kubectl run` to launch ephemeral containers on kubernetes, and why it may be useful to debug services such as kafka or postgres."
+datePublished: 2022-05-26T09:32:06.000Z
+cuid: clbrsvkbl000508l1bnv4go3f
+slug: kubectl-run-spawn-temporary-docker-containers-on-kubernetes
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671461472586/7VFaPCc3-.png
+tags: postgresql, productivity, kubernetes, devops, kafka
+
+---
 
 When working with Kubernetes, there are times when you wished you had a specific tool to help debug a problem, visualize some data, or take some actions. Well, there is actually an easy way: deploy a docker container with the necessary tool directly to your cluster with one command, use it, and let it be destroyed as soon as you do not use it anymore!
 
