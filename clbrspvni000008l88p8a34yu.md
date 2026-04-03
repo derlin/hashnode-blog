@@ -1,4 +1,13 @@
-# Helm templates: do not use tpl in vain
+---
+title: "Helm templates: do not use tpl in vain"
+seoDescription: "Helm's `tpl` function is very handy, but can drastically slow down your templating. Learn how to make it efficient with this simple trick."
+datePublished: 2022-05-30T09:27:29.000Z
+cuid: clbrspvni000008l88p8a34yu
+slug: helm-templates-do-not-use-tpl-in-vain
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671460011755/n41SMGvSg.png
+tags: performance, kubernetes, devops, helm
+
+---
 
 From the documentation:
 
