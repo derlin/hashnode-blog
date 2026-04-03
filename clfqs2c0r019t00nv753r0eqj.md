@@ -1,7 +1,7 @@
 ---
 title: "FastAPI + Celery = ♥"
 seoDescription: "Interested in Python FastAPI? Wondering how to execute long-running tasks in the background? Let's discover FastAPI+Celery through a practical use case."
-datePublished: Mon Mar 27 2023 12:00:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-03-27T12:00:39.751Z
 cuid: clfqs2c0r019t00nv753r0eqj
 slug: introduction-to-fastapi-and-celery
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1679598158400/393fcf19-2e4e-46e0-9c33-f0c1a53e871a.png
