@@ -1,4 +1,13 @@
-# Let's code a reusable workflow for building state-of-the-art, multi-platform Docker images with GitHub Actions ✨
+---
+title: "Let's code a reusable workflow for building state-of-the-art, multi-platform Docker images with GitHub Actions ✨"
+seoDescription: "So let's go through all the steps required to create a robust reusable workflow to build state-of-the-art, multi-arch images with GitHub Actions in 2022."
+datePublished: 2022-12-05T13:50:49.000Z
+cuid: clbouj2tu0429ybnve6cpe7b6
+slug: github-actions-reusable-workflow-docker-images
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671462851626/bfkV9g6K9.png
+tags: docker, github
+
+---
 
 I wrote a reusable GitHub Action workflow for one of my pet projects, [rickroller](https://github.com/derlin/rickroller). The workflow itself is very small and uses mostly well-known Actions, but encompasses a lot of complex? ideas and logic.
 
