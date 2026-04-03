@@ -1,4 +1,13 @@
-# Get favicons from any domain using a hidden google API
+---
+title: "Get favicons from any domain using a hidden google API"
+seoDescription: "Find and download the favicon(s) of any domain using a hidden Google REST API. The service is free!"
+datePublished: 2021-10-28T17:36:04.000Z
+cuid: clboukaig059pzdnvam1jez8l
+slug: get-favicons-from-any-domain-using-a-hidden-google-api
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671528426663/_pWsCqZzl.png
+tags: tools, web-development, apis
+
+---
 
 Did you know?
 
