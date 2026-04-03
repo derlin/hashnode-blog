@@ -1,4 +1,13 @@
-# How to create nightly releases with Github Actions
+---
+title: "How to create nightly releases with Github Actions"
+seoDescription: "How to create a "nightly" release - a release constantly updated with the latest push to main - with GitHub Actions."
+datePublished: 2021-10-31T16:18:00.000Z
+cuid: clbouk36j059ozdnv79dea7eg
+slug: how-to-create-nightly-releases-with-github-actions
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671522400228/SnKQeZfS5.png
+tags: github, github-actions
+
+---
 
 In my GitHub projects, I like to have the artifact (e.g. a jar) of the latest successful build on a specific branch (e.g. `develop` or `main`) available for download. This is the equivalent of a *nightly release*, but is not supported out-of-the-box by Github.
 
