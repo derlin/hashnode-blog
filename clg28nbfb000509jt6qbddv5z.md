@@ -1,7 +1,7 @@
 ---
 title: "dev.to + TOC + emojis = how I lost a weekend"
 seoDescription: "I had to recreate the way dev.to generates anchors in Kotlin Multi-Platform (MPL). It took me way longer than expected! Here is the story."
-datePublished: Tue Apr 04 2023 12:30:20 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-04-04T12:30:20.567Z
 cuid: clg28nbfb000509jt6qbddv5z
 slug: devto-toc-emojis-how-i-lost-a-weekend
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1680586750057/3311640b-faee-4004-b7cd-f07c087105a9.png
