@@ -1,4 +1,13 @@
-# Genetic algorithms with PyGAD: selection, crossover, mutation
+---
+title: "Genetic algorithms with PyGAD: selection, crossover, mutation"
+seoDescription: "Learn the basics of genetic algorithms - selection, crossover, mutation, and how to implement different strategies using the PyGAD Python library."
+datePublished: 2022-04-25T15:45:47.000Z
+cuid: clboyrjnq000208midhk311al
+slug: genetic-algorithms-with-pygad
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671465025986/TJ8gCr11R.png
+tags: ai, algorithms, python, genetic-algorithms, pygad
+
+---
 
 This article is for those like me who haven't done GA (**G**enetic **A**lgorithms) in a while, and need a refresher on the most common *parent selection*, *crossover*, and *mutation* algorithms.
 
