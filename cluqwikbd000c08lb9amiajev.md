@@ -1,7 +1,7 @@
 ---
 title: "Exploring The Magic of Python Through The Awesome Slumber Library"
 seoDescription: "Learn about the slumber library and delve into the Python magic by re-implementing one of its core features."
-datePublished: Mon Apr 08 2024 12:00:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-04-08T12:00:50.521Z
 cuid: cluqwikbd000c08lb9amiajev
 slug: slumber-and-python-magic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712512200292/a2c64108-439a-4554-be51-4970f4b2aaf5.png
