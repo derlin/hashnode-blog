@@ -1,7 +1,7 @@
 ---
 title: "AWS S3 multipart uploads from unauthenticated users? presigned URLs (😕) vs federation tokens (😃)"
 seoDescription: "Need unauthenticated users to upload files to AWS S3 with multipart upload support? A deep look at presigned URLs (😕) and federation tokens (😃)."
-datePublished: Mon Jun 26 2023 12:00:42 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-06-26T12:00:42.586Z
 cuid: cljct4wwk0b3hxlnvffztfwym
 slug: aws-s3-multipart-uploads-presigned-urls-vs-federation-tokens
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1687198900621/7d3e2bb4-6eb4-45d7-8a05-5371252e7b54.jpeg
