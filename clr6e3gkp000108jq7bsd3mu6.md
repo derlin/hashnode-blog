@@ -1,7 +1,7 @@
 ---
 title: "Diving Deeper into Python Exceptions"
 seoDescription: "Discuss some (advanced) concepts and learn tricks about Python exceptions, such as exception chains, __context__, warnings, and more."
-datePublished: Tue Jan 09 2024 13:30:42 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-01-09T13:30:42.218Z
 cuid: clr6e3gkp000108jq7bsd3mu6
 slug: diving-deeper-into-python-exceptions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704646681410/c84bd44f-71f3-4ceb-abf0-bc7f630f2f45.png
