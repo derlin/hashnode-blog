@@ -1,4 +1,12 @@
-# bitdowntoc: markdown TOC for all (even BitBucket 😉)
+---
+title: "bitdowntoc: markdown TOC for all (even BitBucket 😉)"
+datePublished: 2021-09-24T13:46:46.000Z
+cuid: clboxt70y000p08l7fm0n5cgj
+slug: bitdowntoc-markdown-toc-for-all-even-bitbucket
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671113842848/-E2E5EObv.png
+tags: opensource, markdown, developer, tips, bitbucket
+
+---
 
 [![favicon](https://cdn.hashnode.com/res/hashnode/image/upload/v1671099842024/rO_0AJdS7.png align="left")](https://derlin.github.io/bitdowntoc/)
 
