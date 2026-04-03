@@ -1,4 +1,13 @@
-# PWA-ize: open web pages in their own window on mobile
+---
+title: "PWA-ize: open web pages in their own window on mobile"
+seoDescription: "Too many tabs opened on mobile? PWA-ize the sites you visit the most, so they open in a dedicated window - as an app would! Free online service."
+datePublished: 2021-12-07T18:23:02.000Z
+cuid: clboujyhb042dybnvegr86r0o
+slug: pwa-ize-open-web-pages-in-their-own-window-on-mobile
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671526561889/k7_AY1ZBr.png
+tags: javascript, opensource, android, pwa
+
+---
 
 ## TL;DR
 
