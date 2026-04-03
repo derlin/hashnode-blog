@@ -1,4 +1,13 @@
-# I challenged myself to read every day, and it changed my life 📚
+---
+title: "I challenged myself to read every day, and it changed my life 📚"
+seoDescription: "In May 2020, I made a commitment to read for at least 10 minutes every day, and this challenge changed my life. Maybe it can change yours too?"
+datePublished: 2023-01-31T16:29:39.565Z
+cuid: cldkggewc00000al8azkbajyd
+slug: i-challenged-myself-to-read-every-day-and-it-changed-my-life
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1673376300517/30897c56-9c53-49e8-8c4c-bc4f7d411144.png
+tags: lifestyle, challenge, books, watercooler
+
+---
 
 In May 2020, I made a commitment to read for at least 10 minutes every day, and this challenge has had a big impact on my life. I have gained self-worth and perspective, I sleep better, and I feel overall happier and more productive.
 
