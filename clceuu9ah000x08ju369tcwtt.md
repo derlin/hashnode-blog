@@ -1,4 +1,15 @@
-# Finally a clean and easy way to add a table of contents to dev.to articles 🤩
+---
+title: "Finally a clean and easy way to add a table of contents to dev.to articles 🤩"
+seoTitle: "Easily add a table of contents to dev.to articles"
+seoDescription: "BitDownToc now supports dev.to!
+Learn how you can easily add a table of content to your dev.to article."
+datePublished: 2023-01-02T13:46:00.714Z
+cuid: clceuu9ah000x08ju369tcwtt
+slug: add-a-table-of-contents-to-devto-articles
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1672408288898/94fede50-5346-4ca7-aadb-9ee70a2a3162.png
+tags: writing, productivity, markdown, developer-tools, showhashnode
+
+---
 
 Contrary to other platforms, dev.to doesn't have built-in support for Table of Contents (TOCs). Many articles describe tricks to generate TOCs, but those are often laborious and lack a clean UI.
 
