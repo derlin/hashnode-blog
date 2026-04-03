@@ -1,4 +1,13 @@
-# This guy may just have revolutionized 2D pixel animation
+---
+title: "This guy may just have revolutionized 2D pixel animation"
+seoDescription: "Using a simple idea and a custom shader, this guy decoupled animation and texture to achieve the same separation of concern as bone/mesh in 3D."
+datePublished: 2022-12-14T15:37:27.000Z
+cuid: clbouixia0426ybnv63kf5ftg
+slug: this-guy-may-just-have-revolutionized-2d-pixel-animation
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671108588466/w1xzEclhU.jpg
+tags: animation, game-development, showhashnode, pixels-art
+
+---
 
 I am not involved in animation and can hardly draw a cat. I am, however, fascinated with technologies and coding ideas. This one really blew me away: such a simple idea, such a potentially big impact!
 
