@@ -1,7 +1,7 @@
 ---
 title: "Kotlin is `fun` - extension functions"
 seoDescription: "Let's discover what are extension functions in Kotlin, and why they are so useful."
-datePublished: Mon Mar 20 2023 13:00:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-03-20T13:00:39.742Z
 cuid: clfgu4j5000iaw4nvc0dz54fs
 slug: kotlin-is-fun-extension-functions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1678724508012/282fc323-90f5-4d2f-bcc5-b6c77e57b16d.png
