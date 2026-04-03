@@ -1,7 +1,7 @@
 ---
 title: "Kotlin is `fun` - lambdas with receivers"
 seoDescription: "Learn what are lambdas with receivers in Kotlin through a simple example."
-datePublished: Tue Apr 11 2023 17:09:33 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-04-11T17:09:33.523Z
 cuid: clgcipcr7000f09l74qhhf8bi
 slug: kotlin-is-fun-lambdas-with-receivers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1681232861014/0d45b776-5326-4e6b-af17-201e829cc554.png
