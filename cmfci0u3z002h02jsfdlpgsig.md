@@ -1,7 +1,7 @@
 ---
 title: "DIY - my guide to making miniature book replicas (full tutorial) 📖"
 seoDescription: "No more space left on your shelves? Learn how to make teeny-tiny book replicas that look awesome in mini-bookshelves. No specific material required."
-datePublished: Tue Sep 09 2025 12:00:11 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-09T12:00:11.375Z
 cuid: cmfci0u3z002h02jsfdlpgsig
 slug: diy-my-guide-to-making-miniature-book-replicas-full-tutorial
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757420422369/822fa227-6153-412d-a4c5-a803b4e492d6.png
