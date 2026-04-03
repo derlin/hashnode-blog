@@ -1,7 +1,7 @@
 ---
 title: "Understanding Cloudflare Caching: What Gets Cached and How to Control It"
 seoDescription: "Let's understand Cloudflare's default caching behaviors and how to make it cache HTML pages the right way."
-datePublished: Mon Mar 17 2025 13:00:09 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-17T13:00:09.248Z
 cuid: cm8d2o0ww000808i5hadm4sj3
 slug: understanding-cloudflare-caching
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742146543215/d170b795-bddd-45d9-9b00-f39ebbf6be74.png
