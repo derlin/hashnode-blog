@@ -1,4 +1,12 @@
-# Getting notified when a string/pattern appears on a webpage
+---
+title: "Getting notified when a string/pattern appears on a webpage"
+datePublished: 2021-09-22T16:14:44.000Z
+cuid: clboukhqa059rzdnvcyxb48ll
+slug: getting-notified-when-a-stringpattern-appears-on-a-webpage
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671114529138/WpcY9y7w5.png
+tags: javascript, tools, jenkins
+
+---
 
 ## TL;DR
 
