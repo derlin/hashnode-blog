@@ -1,4 +1,13 @@
-# Share your Jupyter Notebooks like a pro
+---
+title: "Share your Jupyter Notebooks like a pro"
+seoDescription: "Learn how to create beautiful notebooks with interactive plots and host them as HTML on GitHub Pages"
+datePublished: 2023-01-18T15:25:42.841Z
+cuid: cld1tg3sp000508mb4f5efy8u
+slug: share-your-jupyter-notebooks-like-a-pro
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1673977636923/8e9357eb-60bb-4b7d-8f13-e7da608aa84a.png
+tags: github, python, data-analysis, jupyter-notebook
+
+---
 
 Are you doing data analysis with Jupyter Notebook? Here is how to create beautiful notebooks with interactive plots and host them as HTML on GitHub Pages.
 
