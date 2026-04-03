@@ -1,4 +1,13 @@
-# How to create jars that run like any other executable binary (./app.jar)
+---
+title: "How to create jars that run like any other executable binary (./app.jar)"
+seoDescription: "Learn how to turn any jar into an executable invocable using `./app.jar` with one single command in the terminal or from a Gradle file."
+datePublished: 2022-01-06T18:37:58.000Z
+cuid: clboyasxp000808mk76q210t5
+slug: how-to-create-jars-that-run-like-any-other-executable
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671468452128/dWH5BCuuz.png
+tags: java, native, tips
+
+---
 
 Fat jars are a good way to package java applications, whether they are command-line programs or GUIs. However, a jar differs from other executables: instead of the regular `./app.jar`, it must be invoked using `java -jar app.jar`. This is ok, but not ideal.
 
