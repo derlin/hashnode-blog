@@ -1,7 +1,7 @@
 ---
 title: "Kotlin is `fun` - Some cool stuff about Kotlin functions"
 seoDescription: "The first article of a series delving into Kotlin functions, starting with some cool stuff about them."
-datePublished: Mon Mar 06 2023 13:50:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-03-06T13:50:39.157Z
 cuid: clewvqw5v0a8hurnvfiqj62hl
 slug: kotlin-is-fun-some-cool-stuff-about-kotlin-functions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1677740630706/43380a51-2660-457d-a508-c088f149eb77.png
