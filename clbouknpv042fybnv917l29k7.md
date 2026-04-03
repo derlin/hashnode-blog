@@ -1,4 +1,13 @@
-# Kotlin: pretty print data classes
+---
+title: "Kotlin: pretty print data classes"
+seoDescription: "Learn how to pretty-print Kotlin data classes through different approaches, with examples and clear pros/cons. Trust me, this isn't an easy task!"
+datePublished: 2021-09-13T18:23:41.000Z
+cuid: clbouknpv042fybnv917l29k7
+slug: kotlin-pretty-print-data-classes
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671114288171/2g6Cq6B3q.png
+tags: tips-and-tricks, kotlin
+
+---
 
 Working on a little new [library to fetch book metadata from GoodReads](https://github.com/derlin/goodreads-metadata-fetcher), I stumbled upon a basic, yet tricky need/problem: pretty-printing data classes in Kotlin.
 
