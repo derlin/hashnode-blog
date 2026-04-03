@@ -1,7 +1,7 @@
 ---
 title: "The Twelve-Factor App: A Blueprint for Scalable, Maintainable Software"
 seoDescription: "The Twelve-Factor app is a set of best practices that guide the design of Web Apps to achieve high flexibility, scalability, maintainability, and more."
-datePublished: Mon Aug 26 2024 12:00:29 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-26T12:00:29.376Z
 cuid: cm0ay5dc0000w09lagqvp98ey
 slug: the-twelve-factor-app
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723553885939/785e4840-0d40-4fd2-9ddc-55890a0601c5.jpeg
