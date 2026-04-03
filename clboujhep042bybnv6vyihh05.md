@@ -1,4 +1,13 @@
-# Exclude lombok generated code from test coverage (JaCoCo/SonarQube)
+---
+title: "Exclude lombok generated code from test coverage (JaCoCo/SonarQube)"
+seoDescription: "Lombok-generated methods should not be part of the coverage report. Learn how to exclude them from JaCoCo/SonarQube with this simple config."
+datePublished: 2022-09-28T12:08:40.000Z
+cuid: clboujhep042bybnv6vyihh05
+slug: java-exclude-lombok-from-test-coverage
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671534871875/XHE0sVTGz.png
+tags: java, sonarqube, testing, lombok
+
+---
 
 [Lombok](https://projectlombok.org) is an amazing library that reduces boilerplate code in Java thanks to annotations processed at compile time. I use it heavily in my personal and professional projects.
 
