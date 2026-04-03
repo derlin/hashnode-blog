@@ -1,4 +1,13 @@
-# One Docker image to rule them all
+---
+title: "One Docker image to rule them all"
+seoDescription: "Learn how to run Docker containers with the exact tools you need, using the nixery registry. Should be part of any developer/DevOps toolbelt!"
+datePublished: 2022-06-27T08:50:59.000Z
+cuid: clbrrrab6000008l1ghua3kj6
+slug: nixery-one-docker-image-to-rule-them-all
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671271202583/M20yS_a3w.png
+tags: productivity, docker, kubernetes, devops
+
+---
 
 I just found out [nixery](https://nixery.dev) !
 
