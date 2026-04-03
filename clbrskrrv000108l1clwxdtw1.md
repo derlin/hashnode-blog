@@ -1,7 +1,7 @@
 ---
 title: "helmfile: a simple trick to handle values intuitively"
 seoDescription: "Learn how to simplify values handling within big helmfiles, by mimicking the umbrella Chart's behaviors. This will save you time and brain cells!"
-datePublished: Mon Jun 20 2022 09:01:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-06-20T09:01:34.000Z
 cuid: clbrskrrv000108l1clwxdtw1
 slug: helmfile-a-simple-trick-to-handle-values-intuitively
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671272619621/uO7UP6Ly-.png
