@@ -1,4 +1,13 @@
-# 6 tools I use every day as a full-stack developer
+---
+title: "6 tools I use every day as a full-stack developer"
+seoDescription: "A short list of tools I use daily as a software engineer I can't live without - Maccy, lazygit, Rainbow Brackets, vivaldi browser, typora, KeePassXC."
+datePublished: 2022-11-01T13:50:54.000Z
+cuid: clbowr4dn000n08lb9y8q7ju4
+slug: 6-tools-i-use-every-day-as-a-full-stack-developer
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671109822407/qOdzvtDsM.jpg
+tags: tools, developer
+
+---
 
 I know there are lots of posts about "necessary" tools that "you must use" as a developer. Without going that far, here is a short list of tools I use daily I can't personally live without.
 
