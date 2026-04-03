@@ -1,7 +1,7 @@
 ---
 title: "How to mock an API in 2 minutes"
 seoDescription: "Learn how to fake an API in minutes using MockServer, Docker, and a JSON file."
-datePublished: Thu May 09 2024 12:42:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-05-09T12:42:30.439Z
 cuid: clvz8njxj000e0ajsgv8vcmu8
 slug: how-to-mock-an-api-in-2-minutes
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1715244867789/f51c53ee-99d1-464f-8347-261e7f61e834.jpeg
