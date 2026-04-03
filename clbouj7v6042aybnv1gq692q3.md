@@ -1,4 +1,13 @@
-# 7 Python 3.11 new features 🤩
+---
+title: "7 Python 3.11 new features 🤩"
+seoDescription: "Python 3.11 is out since October 25, 2022, and comes with great new features! Here are my top picks."
+datePublished: 2022-10-26T12:00:00.000Z
+cuid: clbouj7v6042aybnv1gq692q3
+slug: 7-python-311-new-features
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671110832309/fpdKVM7fn.jpg
+tags: news, python, python3
+
+---
 
 [Python 3.11](https://docs.python.org/3.11/whatsnew/3.11.html) is out since October, 25 and comes with great new features! Here are my top picks.
 
