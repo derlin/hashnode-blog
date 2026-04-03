@@ -1,7 +1,7 @@
 ---
 title: "From Jar to Brew: distribute your Java programs easily with Homebrew and GitHub Actions"
 seoDescription: "Learn how to distribute a program packaged as a Jar using homebrew and to keep a homebrew tap up-to-date using GitHub actions."
-datePublished: Mon May 20 2024 12:00:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-05-20T12:00:15.109Z
 cuid: clwewzkzp000y0amnaokxdsn4
 slug: from-jar-to-brew
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1715505069895/557e71f8-b0d7-464f-80d3-4f725ddf4fd1.jpeg
