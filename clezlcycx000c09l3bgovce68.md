@@ -1,7 +1,7 @@
 ---
 title: "Installing HashiCorp Vault + ExternalSecrets Operator on Kubernetes: the easy way"
 seoDescription: "Want to play with Vault and ExternalSecrets, but don't want to spend a day setting them up? Here is the perfect repo for you."
-datePublished: Wed Mar 08 2023 11:23:11 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-03-08T11:23:11.217Z
 cuid: clezlcycx000c09l3bgovce68
 slug: installing-hashicorp-vault-externalsecrets-operator-on-kubernetes-the-easy-way
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1678272116504/048e004d-7e0b-44d0-9841-9f14b5ee174d.png
