@@ -1,7 +1,7 @@
 ---
 title: "Kotlin is `fun` - Function types, lambdas, and higher-order functions"
 seoDescription: "Kotlin functions are first-class citizens. Let's understand together what it means, and what are function types, higher-order functions, and lambdas."
-datePublished: Mon Mar 13 2023 15:42:02 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-03-13T15:42:02.797Z
 cuid: clf6zt3xo000209l42btbc2ym
 slug: kotlin-is-fun-function-types-lambdas-and-higher-order-functions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1678724457375/e92a4a62-5995-4670-bdb6-0ec454f1c437.png
