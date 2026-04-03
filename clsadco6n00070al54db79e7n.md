@@ -1,7 +1,7 @@
 ---
 title: "Ever wondered how cloud providers (PaaS) integrate with GitHub? I did."
 seoDescription: "Dissect with me how cloud providers integrate with GitHub, and deepen your knowledge of GitHub tooling (Actions, Web Apps, OAuth Apps)."
-datePublished: Tue Feb 06 2024 13:00:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-02-06T13:00:39.407Z
 cuid: clsadco6n00070al54db79e7n
 slug: how-cloud-platforms-integrate-with-github
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1706461346463/40f02157-d836-4d6e-b51a-d32c435888e1.png
