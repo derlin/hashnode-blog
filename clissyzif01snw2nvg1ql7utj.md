@@ -1,7 +1,7 @@
 ---
 title: "Let's RickRoll!"
 seoDescription: "A showcase of rickroller, a website to RickRoll your friends like a pro. I will discuss usage, design, implementation, and more!"
-datePublished: Mon Jun 12 2023 12:00:42 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-06-12T12:00:42.517Z
 cuid: clissyzif01snw2nvg1ql7utj
 slug: rickroll-your-friends
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1686291630057/da54711e-4669-4ab2-8ce5-e6db16d1fefa.png
