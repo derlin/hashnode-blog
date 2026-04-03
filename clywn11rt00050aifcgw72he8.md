@@ -1,7 +1,7 @@
 ---
 title: "Seriously, You Need to Learn Git"
 seoDescription: "Most developers do not take the time to learn git. Let me prove it and give some advice on how to really start learning git."
-datePublished: Mon Jul 22 2024 07:00:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-22T07:00:43.193Z
 cuid: clywn11rt00050aifcgw72he8
 slug: seriously-you-need-to-learn-git
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721567945264/63d08a01-70c8-4567-b67a-2a8b0758e7c5.jpeg
