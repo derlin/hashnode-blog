@@ -1,4 +1,13 @@
-# Think you know Docker? Think twice
+---
+title: "Think you know Docker? Think twice"
+seoDescription: "Do you think you know Docker ? Take the quiz and find out how to deepen your knowledge even more."
+datePublished: 2022-09-14T12:11:43.000Z
+cuid: clboujoj6059fzdnv38585spm
+slug: think-you-know-docker-think-twice
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671112654798/Vbjd_N-GC.jpg
+tags: docker, kubernetes, learning, containers
+
+---
 
 I stumbled upon the amazing website of Ivan Velichko:
 
